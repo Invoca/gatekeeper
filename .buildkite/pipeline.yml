@@ -6,7 +6,7 @@ steps:
     - github_commit_status:
         context: clean-build
   agents:
-    queue: ruby-2-7-5
+    queue: ruby-2-7
   command:
     - bundle install
     - bundle exec rspec
