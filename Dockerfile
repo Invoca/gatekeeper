@@ -1,8 +1,8 @@
-FROM invocaops/ruby:2.7.5-bullseye
+FROM invocaops/ruby:2.7.8-bullseye
 LABEL maintainer="SRE <sre@invoca.com>"
 
 WORKDIR /usr/src/gatekeeper
-RUN gem install bundler -v '1.17.3'
+RUN gem install bundler -v '2.1.4'
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
