@@ -5,6 +5,7 @@ gem 'aws-sdk', '~> 3'
 gem 'sinatra'
 gem 'rufus-scheduler'
 gem 'ipaddress'
+gem 'rackup'
 
 group :development do
   gem 'pry'
