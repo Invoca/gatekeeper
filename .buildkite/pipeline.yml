@@ -1,5 +1,0 @@
----
-# TODO: Replace this with your own pipeline
-steps:
- - label: "Hello world"
-   command: "echo 'Hello World!'"
